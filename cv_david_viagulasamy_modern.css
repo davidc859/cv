@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+main {
+    margin: 40px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li ul li {
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-column,
+.right-column {
+    width: calc(50% - 20px);
+}
+
+.left-column {
+    margin-right: 20px;
+}
+
+.right-column {
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .left-column,
+    .right-column {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+/* Réinitialisation du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e6f0ff;
+}
+
+header {
+    background-color: #0070c9;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+main {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li ul li {
+    margin-left: 20px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-column,
+.right-column {
+    width: calc(50% - 20px);
+}
+
+.left-column {
+    margin-right: 20px;
+}
+
+.right-column {
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .left-column,
+    .right-column {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
